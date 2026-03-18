@@ -95,63 +95,58 @@ class HBV_Bmi(Bmi):
             self.P_dt  = self.P.isel(time=self.current_timestep).to_numpy() * self.dt
             self.Ep_dt = self.EP.isel(time=self.current_timestep).to_numpy() * self.dt
 
-                # Interception Reservoir
-                if self.P_dt > 0:
-                    # if there is rain, no interception evaporation
-                    self.Si = self.Si + self.P_dt
-                    self.Pe_dt = max(self.Si - self.I_max, 0.0)
-                    self.Si = self.Si - self.Pe_dt
-                    self.Ei_dt = 0.0
-                else:
-                    # evaporation only when there is no rainfall
-                    self.Pe_dt = 0.0
-                    self.Ei_dt = min(self.Ep_dt, self.Si)
-                    self.Si = self.Si - self.Ei_dt
         
-                # Split flow into Unsaturated Reservoir and Fast flow
-                if self.Pe_dt > 0:
-                    cr = (self.Su / self.Su_max) ** self.beta
-                    cr = min(max(cr, 0.0), 1.0)   # keep between 0 and 1
-        
-                    Quf_dt = cr * self.Pe_dt
-                    Qiu_dt = self.Pe_dt - Quf_dt
-        
-                    self.Su = self.Su + Qiu_dt
-                else:
-                    Quf_dt = 0.0
-                    Qiu_dt = 0.0
-        
-                # Transpiration
-                self.Ep_dt = max(self.Ep_dt - self.Ei_dt, 0.0)
-                self.Ea_dt = self.Ep_dt * min(self.Su / (self.Ce * self.Su_max), 1.0)
-                self.Ea_dt = min(self.Ea_dt, self.Su)
-                self.Su = self.Su - self.Ea_dt
-        
-                # Percolation
-                self.Qus_dt = self.P_max * (self.Su / self.Su_max)
-                self.Qus_dt = min(self.Qus_dt, self.Su)
-                self.Su = self.Su - self.Qus_dt
-        
-                # Fast Reservoir
-                self.Sf = self.Sf + Quf_dt
-                self.Qf_dt = self.Kf * self.Sf
-                self.Qf_dt = min(self.Qf_dt, self.Sf)
-                self.Sf = self.Sf - self.Qf_dt
-        
-                # Slow Reservoir
-                self.Ss = self.Ss + self.Qus_dt
-                self.Qs_dt = self.Ks * self.Ss
-                self.Qs_dt = min(self.Qs_dt, self.Ss)
-                self.Ss = self.Ss - self.Qs_dt
-        
-                # Total discharge
-                self.Q_tot_dt = self.Qf_dt + self.Qs_dt
-        
-                # Add time lag
-                self.add_time_lag()
-        
-                # Advance one step
-                self.current_timestep += 1
+            # Interception Reservoir
+            if self.P_dt > 0:
+                # if there is rain, no interception evaporation
+                self.Si = self.Si + self.P_dt
+                self.Pe_dt = max(self.Si - self.I_max, 0.0)
+                self.Si = self.Si - self.Pe_dt
+                self.Ei_dt = 0.0
+            else:
+                # evaporation only when there is no rainfall
+                self.Pe_dt = 0.0
+                self.Ei_dt = min(self.Ep_dt, self.Si)
+                self.Si = self.Si - self.Ei_dt
+    
+            # Split flow into Unsaturated Reservoir and Fast flow
+            if self.Pe_dt > 0:
+                cr = (self.Su / self.Su_max) ** self.beta
+                Qiu_dt = (1 - cr) * self.Pe_dt 
+                self.Su = self.Su + Qiu_dt
+                Quf_dt = cr * self.Pe_dt
+                
+            else:
+                Quf_dt = 0.0
+    
+            # Transpiration
+            self.Ep_dt = max(self.Ep_dt - self.Ei_dt, 0.0)
+            self.Ea_dt = self.Ep_dt * (self.Su / (self.Ce * self.Su_max))
+            self.Ea_dt = min(self.Ea_dt, self.Su)
+            self.Su = self.Su - self.Ea_dt
+    
+            # Percolation
+            self.Qus_dt = self.P_max * (self.Su / self.Su_max)
+            self.Su = self.Su - self.Qus_dt
+    
+            # Fast Reservoir
+            self.Sf = self.Sf + Quf_dt
+            self.Qf_dt = self.Kf * self.Sf
+            self.Sf = self.Sf - self.Qf_dt
+    
+            # Slow Reservoir
+            self.Ss = self.Ss + self.Qus_dt
+            self.Qs_dt = self.Ks * self.Ss
+            self.Ss = self.Ss - self.Qs_dt
+    
+            # Total discharge
+            self.Q_tot_dt = self.Qf_dt + self.Qs_dt
+    
+            # Add time lag
+            self.add_time_lag()
+    
+            # Advance one step
+            self.current_timestep += 1
 
 ###############################################################################    
 
