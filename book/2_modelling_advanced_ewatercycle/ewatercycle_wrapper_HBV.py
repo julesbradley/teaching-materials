@@ -176,7 +176,7 @@ class HBV(LocalModel):
             # once empty, remove it
             self._cfg_dir.rmdir()
         except FileNotFoundError:
-            warnings.warn(message=f'Config folder not found at {self._cfg_dir.rmdir()}',category=UserWarning)
+            warnings.warn(message=f'Config folder not found at {self._cfg_dir}',category=UserWarning)
 
 
         # NetCDF files created are timestamped and running them a lot creates many files, remove these
