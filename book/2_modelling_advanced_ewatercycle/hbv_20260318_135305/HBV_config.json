@@ -1,0 +1,6 @@
+{
+    "precipitation_file": "/home/group6/teaching-materials/book/2_modelling_advanced_ewatercycle/Forcing/HBV_forcing_test_2026-03-18 14_53.nc",
+    "potential_evaporation_file": "/home/group6/teaching-materials/book/2_modelling_advanced_ewatercycle/Forcing/HBV_forcing_test_2026-03-18 14_53.nc",
+    "parameters": "4.0,0.6,420.0,2.25,0.1505,5.5,0.055,0.00505",
+    "initial_storage": "0,100,0,5"
+}

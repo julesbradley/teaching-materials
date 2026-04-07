@@ -1,0 +1,10 @@
+ERROR   [266066] No such comm target registered: jupyter.widget.control
+WARNING [266066] No such comm: ea454198-1dcb-40e4-9e45-9944716d9787
+ERROR   [266066] No such comm target registered: jupyter.widget.control
+WARNING [266066] No such comm: 4006cb01-789a-4397-8156-d0f1f0952bcc
+ERROR   [266066] No such comm target registered: jupyter.widget.control
+WARNING [266066] No such comm: 0dddcbeb-5e31-414c-96d2-e51144a030ae
+ERROR   [266066] No such comm target registered: jupyter.widget.control
+WARNING [266066] No such comm: 869f59b3-daef-43cc-9772-3592ab9ec471
+ERROR   [266066] No such comm target registered: jupyter.widget.control
+WARNING [266066] No such comm: 137a9b05-22e1-4264-82f1-2236508a7e24

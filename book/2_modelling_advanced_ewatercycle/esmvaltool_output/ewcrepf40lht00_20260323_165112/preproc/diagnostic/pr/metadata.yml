@@ -1,0 +1,23 @@
+? /home/group6/teaching-materials/book/2_modelling_advanced_ewatercycle/esmvaltool_output/ewcrepf40lht00_20260323_165112/preproc/diagnostic/pr/OBS6_ERA5_reanaly_1_day_pr_2001-2019.nc
+: alias: ERA5
+  dataset: ERA5
+  diagnostic: diagnostic
+  end_year: 2019
+  filename: /home/group6/teaching-materials/book/2_modelling_advanced_ewatercycle/esmvaltool_output/ewcrepf40lht00_20260323_165112/preproc/diagnostic/pr/OBS6_ERA5_reanaly_1_day_pr_2001-2019.nc
+  frequency: day
+  long_name: Precipitation
+  mip: day
+  modeling_realm:
+  - atmos
+  preprocessor: pr
+  project: OBS6
+  recipe_dataset_index: 0
+  short_name: pr
+  standard_name: precipitation_flux
+  start_year: 2001
+  tier: 3
+  timerange: 2001/2019
+  type: reanaly
+  units: kg m-2 s-1
+  variable_group: pr
+  version: 1

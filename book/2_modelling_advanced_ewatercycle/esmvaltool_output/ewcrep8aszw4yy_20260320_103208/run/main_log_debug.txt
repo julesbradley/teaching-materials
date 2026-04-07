@@ -1,0 +1,18 @@
+2026-03-20 11:50:09,019 UTC [137162] ERROR   ipykernel.comm:46 No such comm target registered: jupyter.widget.control
+2026-03-20 11:50:09,021 UTC [137162] WARNING Comm:255 No such comm: d3de9976-9760-4617-a1a6-e948a949e53f
+2026-03-20 11:51:16,948 UTC [137162] ERROR   ipykernel.comm:46 No such comm target registered: jupyter.widget.control
+2026-03-20 11:51:16,951 UTC [137162] WARNING Comm:255 No such comm: 9294ccbc-9dca-4ba1-8cb8-6142762e53ba
+2026-03-20 12:52:05,133 UTC [137162] ERROR   ipykernel.comm:46 No such comm target registered: jupyter.widget.control
+2026-03-20 12:52:05,136 UTC [137162] WARNING Comm:255 No such comm: 322f7ea2-5683-4e48-8709-883c869855f0
+2026-03-20 13:04:15,797 UTC [137162] ERROR   ipykernel.comm:46 No such comm target registered: jupyter.widget.control
+2026-03-20 13:04:15,799 UTC [137162] WARNING Comm:255 No such comm: 1b4646b7-c94e-41fa-a116-f6fb1a0cb305
+2026-03-20 13:12:56,960 UTC [137162] ERROR   ipykernel.comm:46 No such comm target registered: jupyter.widget.control
+2026-03-20 13:12:56,963 UTC [137162] WARNING Comm:255 No such comm: c10d7a8d-2b20-4344-b44d-a64b07c42e55
+2026-03-20 15:28:18,434 UTC [137162] ERROR   ipykernel.comm:46 No such comm target registered: jupyter.widget.control
+2026-03-20 15:28:18,437 UTC [137162] WARNING Comm:255 No such comm: 25b48247-1b09-4cba-b1a2-90bcf0d2a0d2
+2026-03-20 15:53:03,643 UTC [137162] ERROR   ipykernel.comm:46 No such comm target registered: jupyter.widget.control
+2026-03-20 15:53:03,645 UTC [137162] WARNING Comm:255 No such comm: aca4c0b9-beef-4ac8-a589-abf9775073b1
+2026-03-20 15:58:54,636 UTC [137162] ERROR   ipykernel.comm:46 No such comm target registered: jupyter.widget.control
+2026-03-20 15:58:54,644 UTC [137162] WARNING Comm:255 No such comm: 1e71f905-f285-4d13-be62-63788809fec8
+2026-03-20 16:33:59,961 UTC [137162] ERROR   ipykernel.comm:46 No such comm target registered: jupyter.widget.control
+2026-03-20 16:34:00,008 UTC [137162] WARNING Comm:255 No such comm: b9e8d95a-532a-44e6-a3cc-3e1df6fb59d0

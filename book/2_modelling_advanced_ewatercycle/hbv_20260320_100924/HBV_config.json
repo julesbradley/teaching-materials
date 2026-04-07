@@ -1,0 +1,6 @@
+{
+    "precipitation_file": "/home/group6/teaching-materials/book/2_modelling_advanced_ewatercycle/Forcing/emporda_dissolvedForcing/OBS6_ERA5_reanaly_1_day_pr_2001-2019.nc",
+    "potential_evaporation_file": "/home/group6/teaching-materials/book/2_modelling_advanced_ewatercycle/Forcing/emporda_dissolvedForcing/Derived_Makkink_evspsblpot.nc",
+    "parameters": "4.0,0.6,420.0,2.25,0.1505,5.5,0.055,0.00505",
+    "initial_storage": "0,100,0,5"
+}

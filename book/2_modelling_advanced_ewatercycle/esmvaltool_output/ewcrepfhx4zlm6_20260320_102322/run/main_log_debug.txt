@@ -1,0 +1,68 @@
+2026-03-20 11:23:23,138 UTC [128627] ERROR   esmvalcore._recipe.check:131 No input files found for Dataset:
+{'diagnostic': 'diagnostic',
+ 'variable_group': 'rsds',
+ 'dataset': 'EC-Earth3',
+ 'project': 'CMIP6',
+ 'mip': 'day',
+ 'short_name': 'rsds',
+ 'activity': 'CMIP',
+ 'alias': 'EC-Earth3',
+ 'ensemble': 'r6i1p1f1',
+ 'exp': 'historical',
+ 'frequency': 'day',
+ 'grid': 'gr',
+ 'institute': ['EC-Earth-Consortium'],
+ 'long_name': 'Surface Downwelling Shortwave Radiation',
+ 'modeling_realm': ['atmos'],
+ 'original_short_name': 'rsds',
+ 'preprocessor': 'rsds',
+ 'recipe_dataset_index': 0,
+ 'standard_name': 'surface_downwelling_shortwave_flux_in_air',
+ 'timerange': '2010/2019',
+ 'units': 'W m-2'}
+supplementaries:
+  {'dataset': 'EC-Earth3',
+   'project': 'CMIP6',
+   'mip': 'fx',
+   'short_name': 'areacella',
+   'activity': 'CMIP',
+   'ensemble': 'r1i1p1f1',
+   'exp': 'historical',
+   'frequency': 'fx',
+   'grid': 'gr',
+   'institute': 'EC-Earth-Consortium',
+   'long_name': 'Grid-Cell Area for Atmospheric Grid Variables',
+   'modeling_realm': ['atmos', 'land'],
+   'original_short_name': 'areacella',
+   'standard_name': 'cell_area',
+   'units': 'm2'}
+session: 'ewcrepfhx4zlm6_20260320_102322'
+2026-03-20 11:23:23,141 UTC [128627] ERROR   esmvalcore._recipe.check:137 Looked for files matching: /home/group6/.esmvaltool/downloads/CMIP6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/rsds/gr/*/rsds_day_EC-Earth3_historical_r6i1p1f1_gr*.nc
+2026-03-20 11:23:23,141 UTC [128627] ERROR   esmvalcore._recipe.check:138 Set 'log_level' to 'debug' to get more information
+2026-03-20 11:23:23,142 UTC [128627] ERROR   esmvalcore._recipe.recipe:747 Could not create all tasks
+2026-03-20 11:23:23,142 UTC [128627] ERROR   esmvalcore._recipe.recipe:749 Missing data for preprocessor diagnostic/pr:
+- No input data available for years 2015-2019 in files:
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/pr/gr/v20200201/pr_day_EC-Earth3_historical_r6i1p1f1_gr_20100101-20101231.nc on hosts ['esgf.ceda.ac.uk']
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/pr/gr/v20200201/pr_day_EC-Earth3_historical_r6i1p1f1_gr_20110101-20111231.nc on hosts ['esgf.ceda.ac.uk']
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/pr/gr/v20200201/pr_day_EC-Earth3_historical_r6i1p1f1_gr_20120101-20121231.nc on hosts ['esgf.ceda.ac.uk']
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/pr/gr/v20200201/pr_day_EC-Earth3_historical_r6i1p1f1_gr_20130101-20131231.nc on hosts ['esgf.ceda.ac.uk']
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/pr/gr/v20200201/pr_day_EC-Earth3_historical_r6i1p1f1_gr_20140101-20141231.nc on hosts ['esgf.ceda.ac.uk']
+2026-03-20 11:23:23,143 UTC [128627] ERROR   esmvalcore._recipe.recipe:749 Missing data for preprocessor diagnostic/tas:
+- No input data available for years 2015-2019 in files:
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/tas/gr/v20200201/tas_day_EC-Earth3_historical_r6i1p1f1_gr_20100101-20101231.nc on hosts ['esgf.ceda.ac.uk']
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/tas/gr/v20200201/tas_day_EC-Earth3_historical_r6i1p1f1_gr_20110101-20111231.nc on hosts ['esgf.ceda.ac.uk']
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/tas/gr/v20200201/tas_day_EC-Earth3_historical_r6i1p1f1_gr_20120101-20121231.nc on hosts ['esgf.ceda.ac.uk']
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/tas/gr/v20200201/tas_day_EC-Earth3_historical_r6i1p1f1_gr_20130101-20131231.nc on hosts ['esgf.ceda.ac.uk']
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/tas/gr/v20200201/tas_day_EC-Earth3_historical_r6i1p1f1_gr_20140101-20141231.nc on hosts ['esgf.ceda.ac.uk']
+2026-03-20 11:23:23,143 UTC [128627] ERROR   esmvalcore._recipe.recipe:749 Missing data for preprocessor diagnostic/rsds:
+- Missing data for Dataset: rsds, day, CMIP6, EC-Earth3, CMIP, historical, r6i1p1f1, gr, supplementaries: areacella, fx, r1i1p1f1
+2026-03-20 11:24:52,533 UTC [128627] ERROR   esmvalcore._recipe.recipe:747 Could not create all tasks
+2026-03-20 11:24:52,535 UTC [128627] ERROR   esmvalcore._recipe.recipe:749 Missing data for preprocessor diagnostic/pr:
+- No input data available for years 2015-2019 in files:
+ESGFFile:CMIP6/CMIP/MPI-M/MPI-ESM1-2-HR/historical/r1i1p1f1/day/pr/gn/v20190710/pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_20100101-20141231.nc on hosts ['esgf.ceda.ac.uk']
+2026-03-20 11:24:52,535 UTC [128627] ERROR   esmvalcore._recipe.recipe:749 Missing data for preprocessor diagnostic/tas:
+- No input data available for years 2015-2019 in files:
+ESGFFile:CMIP6/CMIP/MPI-M/MPI-ESM1-2-HR/historical/r1i1p1f1/day/tas/gn/v20190710/tas_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_20100101-20141231.nc on hosts ['esgf.ceda.ac.uk']
+2026-03-20 11:24:52,536 UTC [128627] ERROR   esmvalcore._recipe.recipe:749 Missing data for preprocessor diagnostic/rsds:
+- No input data available for years 2015-2019 in files:
+ESGFFile:CMIP6/CMIP/MPI-M/MPI-ESM1-2-HR/historical/r1i1p1f1/day/rsds/gn/v20190710/rsds_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_20100101-20141231.nc on hosts ['esgf.ceda.ac.uk']

@@ -1,0 +1,10 @@
+ERROR   [128627] Could not create all tasks
+ERROR   [128627] Missing data for preprocessor diagnostic/pr:
+- No input data available for years 2015-2019 in files:
+ESGFFile:CMIP6/CMIP/MPI-M/MPI-ESM1-2-HR/historical/r1i1p1f1/day/pr/gn/v20190710/pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_20100101-20141231.nc on hosts ['esgf.ceda.ac.uk']
+ERROR   [128627] Missing data for preprocessor diagnostic/tas:
+- No input data available for years 2015-2019 in files:
+ESGFFile:CMIP6/CMIP/MPI-M/MPI-ESM1-2-HR/historical/r1i1p1f1/day/tas/gn/v20190710/tas_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_20100101-20141231.nc on hosts ['esgf.ceda.ac.uk']
+ERROR   [128627] Missing data for preprocessor diagnostic/rsds:
+- No input data available for years 2015-2019 in files:
+ESGFFile:CMIP6/CMIP/MPI-M/MPI-ESM1-2-HR/historical/r1i1p1f1/day/rsds/gn/v20190710/rsds_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_20100101-20141231.nc on hosts ['esgf.ceda.ac.uk']

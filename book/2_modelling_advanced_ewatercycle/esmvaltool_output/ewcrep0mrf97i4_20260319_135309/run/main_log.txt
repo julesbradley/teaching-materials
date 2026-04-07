@@ -1,0 +1,70 @@
+ERROR   [165403] No input files found for Dataset:
+{'diagnostic': 'diagnostic',
+ 'variable_group': 'rsds',
+ 'dataset': 'EC-Earth3',
+ 'project': 'CMIP6',
+ 'mip': 'day',
+ 'short_name': 'rsds',
+ 'activity': 'CMIP',
+ 'alias': 'EC-Earth3',
+ 'ensemble': 'r6i1p1f1',
+ 'exp': 'historical',
+ 'frequency': 'day',
+ 'grid': 'gr',
+ 'institute': ['EC-Earth-Consortium'],
+ 'long_name': 'Surface Downwelling Shortwave Radiation',
+ 'modeling_realm': ['atmos'],
+ 'original_short_name': 'rsds',
+ 'preprocessor': 'rsds',
+ 'recipe_dataset_index': 0,
+ 'standard_name': 'surface_downwelling_shortwave_flux_in_air',
+ 'timerange': '2010/2019',
+ 'units': 'W m-2'}
+supplementaries:
+  {'dataset': 'EC-Earth3',
+   'project': 'CMIP6',
+   'mip': 'fx',
+   'short_name': 'areacella',
+   'activity': 'CMIP',
+   'ensemble': 'r1i1p1f1',
+   'exp': 'historical',
+   'frequency': 'fx',
+   'grid': 'gr',
+   'institute': 'EC-Earth-Consortium',
+   'long_name': 'Grid-Cell Area for Atmospheric Grid Variables',
+   'modeling_realm': ['atmos', 'land'],
+   'original_short_name': 'areacella',
+   'standard_name': 'cell_area',
+   'units': 'm2'}
+session: 'ewcrep0mrf97i4_20260319_135309'
+ERROR   [165403] Looked for files matching: /home/group6/.esmvaltool/downloads/CMIP6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/rsds/gr/*/rsds_day_EC-Earth3_historical_r6i1p1f1_gr*.nc
+ERROR   [165403] Set 'log_level' to 'debug' to get more information
+ERROR   [165403] Could not create all tasks
+ERROR   [165403] Missing data for preprocessor diagnostic/pr:
+- No input data available for years 2015-2019 in files:
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/pr/gr/v20200201/pr_day_EC-Earth3_historical_r6i1p1f1_gr_20100101-20101231.nc on hosts ['esgf.ceda.ac.uk']
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/pr/gr/v20200201/pr_day_EC-Earth3_historical_r6i1p1f1_gr_20110101-20111231.nc on hosts ['esgf.ceda.ac.uk']
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/pr/gr/v20200201/pr_day_EC-Earth3_historical_r6i1p1f1_gr_20120101-20121231.nc on hosts ['esgf.ceda.ac.uk']
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/pr/gr/v20200201/pr_day_EC-Earth3_historical_r6i1p1f1_gr_20130101-20131231.nc on hosts ['esgf.ceda.ac.uk']
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/pr/gr/v20200201/pr_day_EC-Earth3_historical_r6i1p1f1_gr_20140101-20141231.nc on hosts ['esgf.ceda.ac.uk']
+ERROR   [165403] Missing data for preprocessor diagnostic/tas:
+- No input data available for years 2015-2019 in files:
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/tas/gr/v20200201/tas_day_EC-Earth3_historical_r6i1p1f1_gr_20100101-20101231.nc on hosts ['esgf.ceda.ac.uk']
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/tas/gr/v20200201/tas_day_EC-Earth3_historical_r6i1p1f1_gr_20110101-20111231.nc on hosts ['esgf.ceda.ac.uk']
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/tas/gr/v20200201/tas_day_EC-Earth3_historical_r6i1p1f1_gr_20120101-20121231.nc on hosts ['esgf.ceda.ac.uk']
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/tas/gr/v20200201/tas_day_EC-Earth3_historical_r6i1p1f1_gr_20130101-20131231.nc on hosts ['esgf.ceda.ac.uk']
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/tas/gr/v20200201/tas_day_EC-Earth3_historical_r6i1p1f1_gr_20140101-20141231.nc on hosts ['esgf.ceda.ac.uk']
+ERROR   [165403] Missing data for preprocessor diagnostic/rsds:
+- Missing data for Dataset: rsds, day, CMIP6, EC-Earth3, CMIP, historical, r6i1p1f1, gr, supplementaries: areacella, fx, r1i1p1f1
+ERROR   [165403] No such comm target registered: jupyter.widget.control
+WARNING [165403] No such comm: 5e7672ff-adfc-4613-ac1c-b8bdbec00cfe
+ERROR   [165403] No such comm target registered: jupyter.widget.control
+WARNING [165403] No such comm: 1be4bd3d-47b8-4d1c-b488-fac845bf832e
+ERROR   [165403] No such comm target registered: jupyter.widget.control
+WARNING [165403] No such comm: 6dd29869-1ea9-4c12-8fbe-7374ef3c28da
+ERROR   [165403] No such comm target registered: jupyter.widget.control
+WARNING [165403] No such comm: d941f6ce-cc50-4f10-b6d0-66851da29fd6
+ERROR   [165403] No such comm target registered: jupyter.widget.control
+WARNING [165403] No such comm: 0cc54249-1311-454f-a267-ac08c63a6f5a
+ERROR   [165403] No such comm target registered: jupyter.widget.control
+WARNING [165403] No such comm: 66210347-8cf4-432c-8199-0c2165c47565

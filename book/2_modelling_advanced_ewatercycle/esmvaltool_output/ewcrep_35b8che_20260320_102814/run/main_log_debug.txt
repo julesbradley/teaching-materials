@@ -1,0 +1,91 @@
+2026-03-20 11:30:40,428 UTC [133081] ERROR   esmvalcore._recipe.check:131 No input files found for Dataset:
+{'diagnostic': 'diagnostic',
+ 'variable_group': 'pr',
+ 'dataset': 'MPI-ESM1-2-HR',
+ 'project': 'CMIP6',
+ 'mip': 'day',
+ 'short_name': 'pr',
+ 'activity': 'CMIP',
+ 'alias': 'MPI-ESM1-2-HR',
+ 'ensemble': 'r1i1p1f1',
+ 'exp': 'historical',
+ 'frequency': 'day',
+ 'grid': 'gr',
+ 'institute': ['MPI-M', 'DWD', 'DKRZ'],
+ 'long_name': 'Precipitation',
+ 'modeling_realm': ['atmos'],
+ 'original_short_name': 'pr',
+ 'preprocessor': 'pr',
+ 'recipe_dataset_index': 0,
+ 'standard_name': 'precipitation_flux',
+ 'timerange': '2001/2010',
+ 'units': 'kg m-2 s-1'}
+session: 'ewcrepgm0vj6mk_20260320_103040'
+2026-03-20 11:30:40,431 UTC [133081] ERROR   esmvalcore._recipe.check:137 Looked for files matching
+/home/group6/.esmvaltool/downloads/CMIP6/CMIP6/CMIP/DKRZ/MPI-ESM1-2-HR/historical/r1i1p1f1/day/pr/gr/*/pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gr*.nc
+/home/group6/.esmvaltool/downloads/CMIP6/CMIP6/CMIP/DWD/MPI-ESM1-2-HR/historical/r1i1p1f1/day/pr/gr/*/pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gr*.nc
+/home/group6/.esmvaltool/downloads/CMIP6/CMIP6/CMIP/MPI-M/MPI-ESM1-2-HR/historical/r1i1p1f1/day/pr/gr/*/pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gr*.nc
+2026-03-20 11:30:40,432 UTC [133081] ERROR   esmvalcore._recipe.check:138 Set 'log_level' to 'debug' to get more information
+2026-03-20 11:30:40,484 UTC [133081] ERROR   esmvalcore._recipe.check:131 No input files found for Dataset:
+{'diagnostic': 'diagnostic',
+ 'variable_group': 'tas',
+ 'dataset': 'MPI-ESM1-2-HR',
+ 'project': 'CMIP6',
+ 'mip': 'day',
+ 'short_name': 'tas',
+ 'activity': 'CMIP',
+ 'alias': 'MPI-ESM1-2-HR',
+ 'ensemble': 'r1i1p1f1',
+ 'exp': 'historical',
+ 'frequency': 'day',
+ 'grid': 'gr',
+ 'institute': ['MPI-M', 'DWD', 'DKRZ'],
+ 'long_name': 'Near-Surface Air Temperature',
+ 'modeling_realm': ['atmos'],
+ 'original_short_name': 'tas',
+ 'preprocessor': 'tas',
+ 'recipe_dataset_index': 0,
+ 'standard_name': 'air_temperature',
+ 'timerange': '2001/2010',
+ 'units': 'K'}
+session: 'ewcrepgm0vj6mk_20260320_103040'
+2026-03-20 11:30:40,486 UTC [133081] ERROR   esmvalcore._recipe.check:137 Looked for files matching
+/home/group6/.esmvaltool/downloads/CMIP6/CMIP6/CMIP/DKRZ/MPI-ESM1-2-HR/historical/r1i1p1f1/day/tas/gr/*/tas_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gr*.nc
+/home/group6/.esmvaltool/downloads/CMIP6/CMIP6/CMIP/DWD/MPI-ESM1-2-HR/historical/r1i1p1f1/day/tas/gr/*/tas_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gr*.nc
+/home/group6/.esmvaltool/downloads/CMIP6/CMIP6/CMIP/MPI-M/MPI-ESM1-2-HR/historical/r1i1p1f1/day/tas/gr/*/tas_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gr*.nc
+2026-03-20 11:30:40,487 UTC [133081] ERROR   esmvalcore._recipe.check:138 Set 'log_level' to 'debug' to get more information
+2026-03-20 11:30:40,543 UTC [133081] ERROR   esmvalcore._recipe.check:131 No input files found for Dataset:
+{'diagnostic': 'diagnostic',
+ 'variable_group': 'rsds',
+ 'dataset': 'MPI-ESM1-2-HR',
+ 'project': 'CMIP6',
+ 'mip': 'day',
+ 'short_name': 'rsds',
+ 'activity': 'CMIP',
+ 'alias': 'MPI-ESM1-2-HR',
+ 'ensemble': 'r1i1p1f1',
+ 'exp': 'historical',
+ 'frequency': 'day',
+ 'grid': 'gr',
+ 'institute': ['MPI-M', 'DWD', 'DKRZ'],
+ 'long_name': 'Surface Downwelling Shortwave Radiation',
+ 'modeling_realm': ['atmos'],
+ 'original_short_name': 'rsds',
+ 'preprocessor': 'rsds',
+ 'recipe_dataset_index': 0,
+ 'standard_name': 'surface_downwelling_shortwave_flux_in_air',
+ 'timerange': '2001/2010',
+ 'units': 'W m-2'}
+session: 'ewcrepgm0vj6mk_20260320_103040'
+2026-03-20 11:30:40,545 UTC [133081] ERROR   esmvalcore._recipe.check:137 Looked for files matching
+/home/group6/.esmvaltool/downloads/CMIP6/CMIP6/CMIP/DKRZ/MPI-ESM1-2-HR/historical/r1i1p1f1/day/rsds/gr/*/rsds_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gr*.nc
+/home/group6/.esmvaltool/downloads/CMIP6/CMIP6/CMIP/DWD/MPI-ESM1-2-HR/historical/r1i1p1f1/day/rsds/gr/*/rsds_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gr*.nc
+/home/group6/.esmvaltool/downloads/CMIP6/CMIP6/CMIP/MPI-M/MPI-ESM1-2-HR/historical/r1i1p1f1/day/rsds/gr/*/rsds_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gr*.nc
+2026-03-20 11:30:40,546 UTC [133081] ERROR   esmvalcore._recipe.check:138 Set 'log_level' to 'debug' to get more information
+2026-03-20 11:30:40,547 UTC [133081] ERROR   esmvalcore._recipe.recipe:747 Could not create all tasks
+2026-03-20 11:30:40,547 UTC [133081] ERROR   esmvalcore._recipe.recipe:749 Missing data for preprocessor diagnostic/pr:
+- Missing data for Dataset: pr, day, CMIP6, MPI-ESM1-2-HR, CMIP, historical, r1i1p1f1, gr
+2026-03-20 11:30:40,548 UTC [133081] ERROR   esmvalcore._recipe.recipe:749 Missing data for preprocessor diagnostic/tas:
+- Missing data for Dataset: tas, day, CMIP6, MPI-ESM1-2-HR, CMIP, historical, r1i1p1f1, gr
+2026-03-20 11:30:40,549 UTC [133081] ERROR   esmvalcore._recipe.recipe:749 Missing data for preprocessor diagnostic/rsds:
+- Missing data for Dataset: rsds, day, CMIP6, MPI-ESM1-2-HR, CMIP, historical, r1i1p1f1, gr

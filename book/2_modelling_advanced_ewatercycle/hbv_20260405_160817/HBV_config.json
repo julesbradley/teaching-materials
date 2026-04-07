@@ -1,0 +1,6 @@
+{
+    "precipitation_file": "/home/group6/teaching-materials/book/2_modelling_advanced_ewatercycle/Forcing/Big_shape_fileForcing/OBS6_ERA5_reanaly_1_day_pr_2001-2019.nc",
+    "potential_evaporation_file": "/home/group6/teaching-materials/book/2_modelling_advanced_ewatercycle/Forcing/Big_shape_fileForcing/Derived_Makkink_evspsblpot.nc",
+    "parameters": "6.167047730463038,0.4942597271472898,575.878991148255,2.8808794813187983,0.002239363185879537,4.841015772494844,0.048588828619800115,0.007284042200065575",
+    "initial_storage": "0,100,0,5"
+}

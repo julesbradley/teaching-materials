@@ -1,0 +1,18 @@
+ERROR   [137162] No such comm target registered: jupyter.widget.control
+WARNING [137162] No such comm: d3de9976-9760-4617-a1a6-e948a949e53f
+ERROR   [137162] No such comm target registered: jupyter.widget.control
+WARNING [137162] No such comm: 9294ccbc-9dca-4ba1-8cb8-6142762e53ba
+ERROR   [137162] No such comm target registered: jupyter.widget.control
+WARNING [137162] No such comm: 322f7ea2-5683-4e48-8709-883c869855f0
+ERROR   [137162] No such comm target registered: jupyter.widget.control
+WARNING [137162] No such comm: 1b4646b7-c94e-41fa-a116-f6fb1a0cb305
+ERROR   [137162] No such comm target registered: jupyter.widget.control
+WARNING [137162] No such comm: c10d7a8d-2b20-4344-b44d-a64b07c42e55
+ERROR   [137162] No such comm target registered: jupyter.widget.control
+WARNING [137162] No such comm: 25b48247-1b09-4cba-b1a2-90bcf0d2a0d2
+ERROR   [137162] No such comm target registered: jupyter.widget.control
+WARNING [137162] No such comm: aca4c0b9-beef-4ac8-a589-abf9775073b1
+ERROR   [137162] No such comm target registered: jupyter.widget.control
+WARNING [137162] No such comm: 1e71f905-f285-4d13-be62-63788809fec8
+ERROR   [137162] No such comm target registered: jupyter.widget.control
+WARNING [137162] No such comm: b9e8d95a-532a-44e6-a3cc-3e1df6fb59d0

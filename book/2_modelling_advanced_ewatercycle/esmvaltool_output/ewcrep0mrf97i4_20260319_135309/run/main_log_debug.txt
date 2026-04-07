@@ -1,0 +1,70 @@
+2026-03-19 14:53:12,035 UTC [165403] ERROR   esmvalcore._recipe.check:131 No input files found for Dataset:
+{'diagnostic': 'diagnostic',
+ 'variable_group': 'rsds',
+ 'dataset': 'EC-Earth3',
+ 'project': 'CMIP6',
+ 'mip': 'day',
+ 'short_name': 'rsds',
+ 'activity': 'CMIP',
+ 'alias': 'EC-Earth3',
+ 'ensemble': 'r6i1p1f1',
+ 'exp': 'historical',
+ 'frequency': 'day',
+ 'grid': 'gr',
+ 'institute': ['EC-Earth-Consortium'],
+ 'long_name': 'Surface Downwelling Shortwave Radiation',
+ 'modeling_realm': ['atmos'],
+ 'original_short_name': 'rsds',
+ 'preprocessor': 'rsds',
+ 'recipe_dataset_index': 0,
+ 'standard_name': 'surface_downwelling_shortwave_flux_in_air',
+ 'timerange': '2010/2019',
+ 'units': 'W m-2'}
+supplementaries:
+  {'dataset': 'EC-Earth3',
+   'project': 'CMIP6',
+   'mip': 'fx',
+   'short_name': 'areacella',
+   'activity': 'CMIP',
+   'ensemble': 'r1i1p1f1',
+   'exp': 'historical',
+   'frequency': 'fx',
+   'grid': 'gr',
+   'institute': 'EC-Earth-Consortium',
+   'long_name': 'Grid-Cell Area for Atmospheric Grid Variables',
+   'modeling_realm': ['atmos', 'land'],
+   'original_short_name': 'areacella',
+   'standard_name': 'cell_area',
+   'units': 'm2'}
+session: 'ewcrep0mrf97i4_20260319_135309'
+2026-03-19 14:53:12,038 UTC [165403] ERROR   esmvalcore._recipe.check:137 Looked for files matching: /home/group6/.esmvaltool/downloads/CMIP6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/rsds/gr/*/rsds_day_EC-Earth3_historical_r6i1p1f1_gr*.nc
+2026-03-19 14:53:12,038 UTC [165403] ERROR   esmvalcore._recipe.check:138 Set 'log_level' to 'debug' to get more information
+2026-03-19 14:53:12,039 UTC [165403] ERROR   esmvalcore._recipe.recipe:747 Could not create all tasks
+2026-03-19 14:53:12,039 UTC [165403] ERROR   esmvalcore._recipe.recipe:749 Missing data for preprocessor diagnostic/pr:
+- No input data available for years 2015-2019 in files:
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/pr/gr/v20200201/pr_day_EC-Earth3_historical_r6i1p1f1_gr_20100101-20101231.nc on hosts ['esgf.ceda.ac.uk']
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/pr/gr/v20200201/pr_day_EC-Earth3_historical_r6i1p1f1_gr_20110101-20111231.nc on hosts ['esgf.ceda.ac.uk']
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/pr/gr/v20200201/pr_day_EC-Earth3_historical_r6i1p1f1_gr_20120101-20121231.nc on hosts ['esgf.ceda.ac.uk']
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/pr/gr/v20200201/pr_day_EC-Earth3_historical_r6i1p1f1_gr_20130101-20131231.nc on hosts ['esgf.ceda.ac.uk']
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/pr/gr/v20200201/pr_day_EC-Earth3_historical_r6i1p1f1_gr_20140101-20141231.nc on hosts ['esgf.ceda.ac.uk']
+2026-03-19 14:53:12,040 UTC [165403] ERROR   esmvalcore._recipe.recipe:749 Missing data for preprocessor diagnostic/tas:
+- No input data available for years 2015-2019 in files:
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/tas/gr/v20200201/tas_day_EC-Earth3_historical_r6i1p1f1_gr_20100101-20101231.nc on hosts ['esgf.ceda.ac.uk']
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/tas/gr/v20200201/tas_day_EC-Earth3_historical_r6i1p1f1_gr_20110101-20111231.nc on hosts ['esgf.ceda.ac.uk']
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/tas/gr/v20200201/tas_day_EC-Earth3_historical_r6i1p1f1_gr_20120101-20121231.nc on hosts ['esgf.ceda.ac.uk']
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/tas/gr/v20200201/tas_day_EC-Earth3_historical_r6i1p1f1_gr_20130101-20131231.nc on hosts ['esgf.ceda.ac.uk']
+ESGFFile:CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/tas/gr/v20200201/tas_day_EC-Earth3_historical_r6i1p1f1_gr_20140101-20141231.nc on hosts ['esgf.ceda.ac.uk']
+2026-03-19 14:53:12,041 UTC [165403] ERROR   esmvalcore._recipe.recipe:749 Missing data for preprocessor diagnostic/rsds:
+- Missing data for Dataset: rsds, day, CMIP6, EC-Earth3, CMIP, historical, r6i1p1f1, gr, supplementaries: areacella, fx, r1i1p1f1
+2026-03-19 15:11:37,288 UTC [165403] ERROR   ipykernel.comm:46 No such comm target registered: jupyter.widget.control
+2026-03-19 15:11:37,291 UTC [165403] WARNING Comm:255 No such comm: 5e7672ff-adfc-4613-ac1c-b8bdbec00cfe
+2026-03-19 15:30:11,669 UTC [165403] ERROR   ipykernel.comm:46 No such comm target registered: jupyter.widget.control
+2026-03-19 15:30:11,672 UTC [165403] WARNING Comm:255 No such comm: 1be4bd3d-47b8-4d1c-b488-fac845bf832e
+2026-03-19 15:44:12,483 UTC [165403] ERROR   ipykernel.comm:46 No such comm target registered: jupyter.widget.control
+2026-03-19 15:44:12,486 UTC [165403] WARNING Comm:255 No such comm: 6dd29869-1ea9-4c12-8fbe-7374ef3c28da
+2026-03-19 15:45:39,619 UTC [165403] ERROR   ipykernel.comm:46 No such comm target registered: jupyter.widget.control
+2026-03-19 15:45:39,621 UTC [165403] WARNING Comm:255 No such comm: d941f6ce-cc50-4f10-b6d0-66851da29fd6
+2026-03-19 15:59:15,667 UTC [165403] ERROR   ipykernel.comm:46 No such comm target registered: jupyter.widget.control
+2026-03-19 15:59:15,671 UTC [165403] WARNING Comm:255 No such comm: 0cc54249-1311-454f-a267-ac08c63a6f5a
+2026-03-19 16:38:09,677 UTC [165403] ERROR   ipykernel.comm:46 No such comm target registered: jupyter.widget.control
+2026-03-19 16:38:09,680 UTC [165403] WARNING Comm:255 No such comm: 66210347-8cf4-432c-8199-0c2165c47565
